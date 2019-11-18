@@ -1,0 +1,20 @@
+{
+  "name": "simple-webpack-based-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/Index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2"
+  }
+}

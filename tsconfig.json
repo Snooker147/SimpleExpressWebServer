@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": false,
+        "outDir": "dist",
+        "target": "es6",
+        "lib": ["es6"],
+        "sourceMap": false,
+        "module": "commonjs"
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
